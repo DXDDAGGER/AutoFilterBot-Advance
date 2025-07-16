@@ -14,7 +14,7 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Auto_Filters_Bot')
-API_ID = environ.get('API_ID', '')
+API_ID = environ.get('API_ID', '6674102')
 if len(API_ID) == 0:
     logging.error('API_ID is missing, exiting now')
     exit()
