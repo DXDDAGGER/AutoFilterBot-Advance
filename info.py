@@ -85,7 +85,7 @@ WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/SL_Bots_Updates")
 
 # stream features vars
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002848411735")
 if len(BIN_CHANNEL) == 0:
     logging.error('BIN_CHANNEL is missing, exiting now')
     exit()
