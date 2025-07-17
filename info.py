@@ -91,7 +91,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "")
+URL = environ.get("URL", "https://t.me/+xqXL5b8n3ncxZDhl")
 if len(URL) == 0:
     logging.error('URL is missing, exiting now')
     exit()
